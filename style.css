@@ -28,3 +28,48 @@ body {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
 }
+
+.heroSection {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.heroLeft h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    font-family: "Roboto", sans-serif;
+}
+
+.heroLeft p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: "Roboto", sans-serif;
+}
+
+.heroLeft a {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    font-size: 18px;
+    max-width: 100px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.heroRight {
+    max-width: 500px;
+    margin: 50px 0;
+}
