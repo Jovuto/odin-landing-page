@@ -48,6 +48,7 @@ body {
     font-weight: extra-bold;
     color: #F9FAF8;
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 .heroLeft p {
@@ -72,4 +73,64 @@ body {
 .heroRight {
     max-width: 500px;
     margin: 50px 0;
+}
+
+.gallerySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallerySection h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1300px;
+}
+
+.galleryEntry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+}
+
+.galleryEntry p {
+    font-size: 18px;
+    font-style: light italic;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: solid 5px #3882F6;
+    border-radius: 10px;
+}
+
+.picture img {
+    max-width: 200px;
+}
+
+.picture .Cooper {
+    margin-top: -50px;
+}
+
+.picture .Pluto {
+    margin-top: -50px;
+}
+
+.picture .Jenny {
+    margin-top: -20px;
 }
