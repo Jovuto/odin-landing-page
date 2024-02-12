@@ -134,3 +134,24 @@ body {
 .picture .Jenny {
     margin-top: -20px;
 }
+
+.newBoySection {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newBoySection p {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    max-width: 500px;
+}
+
+.newBoySection img {
+    max-width: 500px;
+    margin: 20px 0;
+    border-radius: 50px;
+}
